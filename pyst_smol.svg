@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="348"
+   height="445"
+   viewBox="0 0 92.07535 117.74036"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="pyst_smol.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.26110523"
+     inkscape:cx="-384.90229"
+     inkscape:cy="67.022786"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke-width:1.04485;stroke-linecap:square"
+       d="M 86.60612,7.5445064 7.7482815,109.92088 H 83.773475"
+       id="path2"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.04486;stroke-linecap:square"
+       d="m 25.470651,103.2966 49.672071,-1.0748 4.299184,-62.585234 c 0,0 -2.868423,24.859287 -6.122941,44.503569 C 69.792851,105.42321 43.439968,99.882962 25.470651,103.2966 Z"
+       id="path7"
+       sodipodi:nodetypes="cccsc" />
+  </g>
+</svg>

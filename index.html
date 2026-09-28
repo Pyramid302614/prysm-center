@@ -1,0 +1,96 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Prysm Center</title>
+        <style>
+            @font-face {
+                font-family: Asimovian;
+                font-weight: regular;
+                src: url("Asimovian-Regular.ttf");
+            }
+            @font-face {
+                font-family: Gaegu;
+                font-weight: regular;
+                src: url("Gaegu-Regular.ttf");
+            }
+            #cover {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                background: #FFF;
+                z-index: 9999;
+            }
+            #title {
+                position: fixed;
+                font: 40px Asimovian;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+            #title_icon {
+                margin-right: -5px;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            #title_hr {
+                width: 0px;
+                transition: width 0.5s ease-in-out;
+            }
+            hr {
+                border-color: black;
+                border-style: solid;
+            }
+            p {
+                font-family: Gaegu;
+                font-size: 20px;
+            }
+            #service_list {
+                opacity: 0;
+                font-family: Gaegu;
+                font-size: 30px;
+                transition: opacity 0.5s;
+            }
+            #main_text {
+                opacity: 0;
+                transition: opacity 0.5s;
+            }
+            #service_list_title {
+                opacity: 0;
+                transition: opacity 0.5s;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cover"></div>
+        <img src="pyst_smol.svg" alt="pyst_smol" id="title_icon" width=60 height=60></img><span id="title">PRYSM STUDIOS</span>
+        <hr id="title_hr">
+        <div style="padding:20px;padding-left:30px">
+            <p id="main_text"><b>Welcome to the Prysm domain!</b> Numerous services are hosted under this domain via
+                <a href="https://en.wikipedia.org/wiki/Subdomain">subdomains</a>
+                managed by Cloudflare. If you landed here by accident trying to access one of
+                these services, the list below might help you.
+                <br/>
+                <br/>
+                <span id="service_list_title">All hosted services under this domain:</span>
+                <ul id="service_list">
+                    <li><a href="https://top.gg/bot/1481114874343063677">Snake Bot</a> > Discord bot crazy about snakes</li>
+                    <li><a href="https://the-box.pyramidstudios.xyz">The Box Unbound</a> > Chatroom connected to discord</li>
+                    <li><a href="https://chsr.pyramidstudios.xyz">CodeHS Revived</a> > CodeHS p5 editor "replica" unblocked</li>
+                </ul>
+            </p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(window).on("load",() => {
+                $("#cover").fadeOut(500);
+                document.getElementById("title_hr").style.width = "100%";
+                setTimeout(() => document.getElementById("main_text").style.opacity = 1, 300);
+                setTimeout(() => document.getElementById("service_list_title").style.opacity = 1, 400);
+                setTimeout(() => document.getElementById("service_list").style.opacity = 1, 500);
+            });
+        </script>
+    </body>
+</html>
